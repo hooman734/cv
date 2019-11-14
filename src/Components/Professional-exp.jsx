@@ -3,8 +3,8 @@ import DetailProgress from "./Detail-progress";
 
 const Professional_exp = function() {
   return (
-    <div>
-      <h2 className="badge-secondary text-uppercase">
+    <div style={{ "padding-top": "25px" }}>
+      <h2 className="badge-secondary text-uppercase" style={{ padding: "5px" }}>
         professional experience
       </h2>
       <DetailProgress

@@ -3,8 +3,10 @@ import DetailLink from "./Detail-link";
 
 const Contact = function() {
   return (
-    <div>
-      <h2 className="badge-secondary text-uppercase">Contact</h2>
+    <div style={{ "padding-top": "25px" }}>
+      <h2 className="badge-secondary text-uppercase" style={{ padding: "5px" }}>
+        Contact
+      </h2>
       <DetailLink
         title="Email"
         context="hesamyan@gmail.com"

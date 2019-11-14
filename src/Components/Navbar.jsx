@@ -2,7 +2,10 @@ import React from "react";
 
 const Navbar = function() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+      style={{ padding: "5px" }}
+    >
       <a
         className="navbar-brand font-weight-bolder"
         href="http://hooman734.github.io"

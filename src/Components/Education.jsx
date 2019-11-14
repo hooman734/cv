@@ -3,8 +3,10 @@ import DetailEdu from "./Detail-education";
 
 const Education = function() {
   return (
-    <div>
-      <h2 className="badge-secondary text-uppercase">Education</h2>
+    <div style={{ "padding-top": "25px" }}>
+      <h2 className="badge-secondary text-uppercase" style={{ padding: "5px" }}>
+        Education
+      </h2>
       <DetailEdu
         title="Master of Science in Computer Science"
         context="American University of Armenia"

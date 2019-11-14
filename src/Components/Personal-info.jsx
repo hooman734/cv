@@ -3,8 +3,10 @@ import Detail from "./Detail";
 
 const Personal_info = function() {
   return (
-    <div>
-      <h2 className="badge-secondary text-uppercase">Personal Details</h2>
+    <div style={{ "padding-top": "25px" }}>
+      <h2 className="badge-secondary text-uppercase" style={{ padding: "5px" }}>
+        Personal Details
+      </h2>
       <Detail title="Birth Date" context="22/05/1981"></Detail>
       <Detail title="Nationality" context="Iranian"></Detail>
       <Detail title="Address" context="Armenia, Kievyan Ave."></Detail>
