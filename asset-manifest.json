@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.b100e6da.chunk.css",
-    "main.js": "/cv/static/js/main.efe05358.chunk.js",
-    "main.js.map": "/cv/static/js/main.efe05358.chunk.js.map",
+    "main.css": "/cv/static/css/main.3cd18f68.chunk.css",
+    "main.js": "/cv/static/js/main.d9b02053.chunk.js",
+    "main.js.map": "/cv/static/js/main.d9b02053.chunk.js.map",
     "runtime-main.js": "/cv/static/js/runtime-main.a182132d.js",
     "runtime-main.js.map": "/cv/static/js/runtime-main.a182132d.js.map",
-    "static/js/2.7e26b0ae.chunk.js": "/cv/static/js/2.7e26b0ae.chunk.js",
-    "static/js/2.7e26b0ae.chunk.js.map": "/cv/static/js/2.7e26b0ae.chunk.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/cv/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.68e22856.chunk.js": "/cv/static/js/2.68e22856.chunk.js",
+    "static/js/2.68e22856.chunk.js.map": "/cv/static/js/2.68e22856.chunk.js.map",
     "index.html": "/cv/index.html",
-    "precache-manifest.0aef69c8ee0584cd70d4b0a863f6dc05.js": "/cv/precache-manifest.0aef69c8ee0584cd70d4b0a863f6dc05.js",
+    "precache-manifest.5feb68ef7508d6b2eb352fa92d501c9b.js": "/cv/precache-manifest.5feb68ef7508d6b2eb352fa92d501c9b.js",
     "service-worker.js": "/cv/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/cv/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/cv/static/media/logo.25bf045c.svg"
+    "static/css/2.b0bb7f2c.chunk.css.map": "/cv/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.3cd18f68.chunk.css.map": "/cv/static/css/main.3cd18f68.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.a182132d.js",
-    "static/js/2.7e26b0ae.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.efe05358.chunk.js"
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.68e22856.chunk.js",
+    "static/css/main.3cd18f68.chunk.css",
+    "static/js/main.d9b02053.chunk.js"
   ]
 }
