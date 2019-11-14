@@ -1,0 +1,15 @@
+{
+  "component": {
+    "path": "src/components",
+    "css": {
+      "preprocessor": "css",
+      "module": true
+    },
+    "test": {
+      "library": "Enzyme",
+      "withTest": true
+    },
+    "withStory": true,
+    "withLazy": true
+  }
+}
