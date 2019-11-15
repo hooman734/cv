@@ -3,7 +3,7 @@ import React from "react";
 const Detail = function(props) {
   const { title, context } = props;
   return (
-    <div className="row shadow-lg p-1 mb-1 bg-white rounded">
+    <div className="Header row shadow-lg p-1 mb-1 bg-white rounded">
       <div className="col-sm">
         <div className="card">
           <div className="card-body">

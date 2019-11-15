@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("./background/bricks.jpeg");
+  background-image: url("./background/wood.jpg");
 }
 
 .Component {
@@ -9,6 +9,20 @@
 
 .App-logo {
   height: 40vmin;
+}
+
+.Header :hover > div {
+  transition: all 0.5s ease;
+  transform: skew(-0.01turn, 1deg);
+  padding: 0.5rem;
+}
+
+.navbar {
+  width: fit-content;
+}
+
+.text {
+  overflow: hidden;
 }
 
 .App-header {

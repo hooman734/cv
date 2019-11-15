@@ -24,12 +24,12 @@ const Detail_progress = function(props) {
               </div>
             </div>
             <div className="row">
-              <div className="col-sm-7">
+              <div className="col-sm-9">
                 <p className="card-text text-left text-wrap text-reset text-capitalize text-justify">
                   {context}
                 </p>
               </div>
-              <div className="col-sm-5 text-capitalize text-justify">
+              <div className="col-sm-3 text-capitalize text-justify">
                 <h6>
                   <i className="fa fa-calendar-check" /> {start} - {end}
                 </h6>

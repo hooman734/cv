@@ -31,7 +31,7 @@ const Detail_advancement = function(props) {
                 <div className="progress">
                   <div
                     className={
-                      "progress-bar progress-bar-striped progress-bar-animated " +
+                      "progress-bar progress-bar-striped progress-bar " +
                       bartype
                     }
                     role="progressbar"

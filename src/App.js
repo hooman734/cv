@@ -11,8 +11,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container-fluid App">
-      <div className="row">
+    <div className="container-fluid width-align-justify App">
+      <div className="row-sm-12">
         <Navbar></Navbar>
       </div>
       <div className="row Component">

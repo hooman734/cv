@@ -3,7 +3,7 @@ import React from "react";
 const Detail_link = function(props) {
   const { title, context, link, icon } = props;
   return (
-    <div className="row shadow-lg p-1 mb-1 bg-white rounded">
+    <div className="Header row shadow-lg p-1 mb-1 bg-white rounded">
       <div className="col-sm">
         <div className="card">
           <div className="card-body">
@@ -22,7 +22,7 @@ const Detail_link = function(props) {
               target="_blank"
             >
               <p className="card-text text-left text-wrap text-capitalize text-justify">
-                <i class={icon || ""} /> {context}
+                <i className={icon || ""} /> {context}
               </p>
             </a>
           </div>
