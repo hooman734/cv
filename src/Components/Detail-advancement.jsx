@@ -15,14 +15,14 @@ const Detail_advancement = function(props) {
         <div className="row">
           <div className="col-sm">
             <a
-              className="text-decoration-none text-reset text-capitalize"
+              className="text-decoration-none text-reset text-capitalize text-justify"
               href={link || "#"}
             >
-              <h3 className="card-title font-weight-bold text-muted text-left text-uppercase">
+              <h3 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                 {title}
               </h3>
             </a>
-            <h4 className="card-text text-left text-wrap text-reset text-capitalize">
+            <h4 className="card-text text-left text-wrap text-reset text-capitalize text-justify">
               {context || ""}
             </h4>
             <div className="progress">

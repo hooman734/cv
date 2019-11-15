@@ -8,13 +8,15 @@ const Detail_link = function(props) {
         <div className="card">
           <div className="card-body">
             <a className="text-decoration-none" href={link || "#"}>
-              <h3 className="card-title font-weight-bold text-muted text-left text-uppercase">
+              <h3 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                 {title}
               </h3>
             </a>
-            <h4 className="card-text text-left text-wrap text-capitalize">
-              {context}
-            </h4>
+            <a className="text-decoration-none" href={link || "#"}>
+              <h4 className="card-text text-left text-wrap text-capitalize text-justify">
+                {context}
+              </h4>
+            </a>
           </div>
         </div>
       </div>

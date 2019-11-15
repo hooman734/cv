@@ -6,7 +6,7 @@ const Skill = function() {
     <div className="row">
       <div className="col-sm" style={{ paddingTop: "25px" }}>
         <h2
-          className="badge-secondary text-uppercase"
+          className="badge-secondary text-uppercase text-justify"
           style={{ padding: "5px" }}
         >
           developing skills

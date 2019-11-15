@@ -18,7 +18,7 @@ const Contact = function() {
         ></DetailLink>
         <DetailLink
           title="Mobile Phone"
-          context="tel: +37477281"
+          context="tel: +37477281734"
           link="tel: +37477281"
         ></DetailLink>
         <DetailLink
