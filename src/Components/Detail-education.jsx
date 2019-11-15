@@ -19,6 +19,7 @@ const Detail_education = function(props) {
                 <a
                   className="text-decoration-none text-reset text-capitalize text-justify"
                   href={link || "#"}
+                  target="_blank"
                 >
                   <h4 className="card-text text-left text-wrap text-reset text-capitalize text-justify">
                     {context}

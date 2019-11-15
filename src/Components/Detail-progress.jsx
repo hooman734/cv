@@ -15,6 +15,7 @@ const Detail_progress = function(props) {
                 <a
                   className="text-decoration-none text-reset text-capitalize text-justify"
                   href={link || "#"}
+                  target="_blank"
                 >
                   <h3 className="card-title text-muted text-left text-capitalize text-justify">
                     {subTitle}

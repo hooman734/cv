@@ -17,6 +17,7 @@ const Detail_advancement = function(props) {
             <a
               className="text-decoration-none text-reset text-capitalize text-justify"
               href={link || "#"}
+              target="_blank"
             >
               <h3 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                 {title}

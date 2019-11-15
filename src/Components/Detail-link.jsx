@@ -7,12 +7,20 @@ const Detail_link = function(props) {
       <div className="col-sm">
         <div className="card">
           <div className="card-body">
-            <a className="text-decoration-none" href={link || "#"}>
+            <a
+              className="text-decoration-none"
+              href={link || "#"}
+              target="_blank"
+            >
               <h3 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                 {title}
               </h3>
             </a>
-            <a className="text-decoration-none" href={link || "#"}>
+            <a
+              className="text-decoration-none text-reset"
+              href={link || "#"}
+              target="_blank"
+            >
               <h4 className="card-text text-left text-wrap text-capitalize text-justify">
                 {context}
               </h4>

@@ -24,6 +24,7 @@ const Contact = function() {
         <DetailLink
           title="Address"
           context="Armenia, Kievyan Ave."
+          link="https://www.google.com/maps/place/Kievyan+St,+Yerevan,+Armenia/@40.1949348,44.4880106,17z/data=!4m2!3m1!1s0x406abd6d4556de9d:0xdaad543c0accedfd"
         ></DetailLink>
       </div>
     </div>
