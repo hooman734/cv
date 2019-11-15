@@ -5,15 +5,13 @@ const Personal_info = function() {
   return (
     <div className="row">
       <div className="col-sm" style={{ paddingTop: "25px" }}>
-        <h2
-          className="badge-secondary text-uppercase text-justify"
-          style={{ padding: "5px" }}
-        >
-          Personal Details
-        </h2>
+        <div className="shadow-lg p-2 mb-2 badge-secondary rounded">
+          <h3 className="text-left text-uppercase" style={{ padding: "5px" }}>
+            personal detailes
+          </h3>
+        </div>
         <Detail title="Birth Date" context="22/05/1981"></Detail>
         <Detail title="Nationality" context="Iranian"></Detail>
-        <Detail title="Address" context="Armenia, Kievyan Ave."></Detail>
       </div>
     </div>
   );

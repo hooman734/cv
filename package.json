@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://hooman734.github.io/cv",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -32,5 +34,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }

@@ -16,16 +16,19 @@ function App() {
         <Navbar></Navbar>
       </div>
       <div className="row Component">
-        <div className="col-sm-4">
+        <div className="col-sm-1"></div>
+        <div className="col-sm-3">
           <Personal_info></Personal_info>
           <Contact></Contact>
           <Knowledge></Knowledge>
         </div>
-        <div className="col-sm-8">
+        <div className="col-sm-1"></div>
+        <div className="col-sm-6">
           <Education></Education>
           <Professional_exp></Professional_exp>
           <Skill></Skill>
         </div>
+        <div className="col-sm-1"></div>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from "react";
 
 const Detail_link = function(props) {
-  const { title, context, link } = props;
+  const { title, context, link, icon } = props;
   return (
-    <div className="row">
+    <div className="row shadow-lg p-1 mb-1 bg-white rounded">
       <div className="col-sm">
         <div className="card">
           <div className="card-body">
@@ -12,18 +12,18 @@ const Detail_link = function(props) {
               href={link || "#"}
               target="_blank"
             >
-              <h3 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
+              <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                 {title}
-              </h3>
+              </h5>
             </a>
             <a
               className="text-decoration-none text-reset"
               href={link || "#"}
               target="_blank"
             >
-              <h4 className="card-text text-left text-wrap text-capitalize text-justify">
-                {context}
-              </h4>
+              <p className="card-text text-left text-wrap text-capitalize text-justify">
+                <i class={icon || ""} /> {context}
+              </p>
             </a>
           </div>
         </div>

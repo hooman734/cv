@@ -5,12 +5,11 @@ const Professional_exp = function() {
   return (
     <div className="row">
       <div className="col-sm" style={{ paddingTop: "25px" }}>
-        <h2
-          className="badge-secondary text-uppercase text-justify"
-          style={{ padding: "5px" }}
-        >
-          professional experience
-        </h2>
+        <div className="shadow-lg p-2 mb-2 badge-secondary rounded">
+          <h3 className="text-left text-uppercase" style={{ padding: "5px" }}>
+            professional experience
+          </h3>
+        </div>
         <DetailProgress
           title="civil supervisor"
           subTitle="parab firm in iran"

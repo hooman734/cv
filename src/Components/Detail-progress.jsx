@@ -3,36 +3,36 @@ import React from "react";
 const Detail_progress = function(props) {
   const { title, subTitle, context, link, start, end } = props;
   return (
-    <div className="row">
+    <div className="row shadow-lg p-1 mb-1 bg-white rounded">
       <div className="col-sm">
         <div className="card">
           <div className="card-body">
             <div className="row">
               <div className="col-sm">
-                <h3 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
+                <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                   {title}
-                </h3>
+                </h5>
                 <a
                   className="text-decoration-none text-reset text-capitalize text-justify"
                   href={link || "#"}
                   target="_blank"
                 >
-                  <h3 className="card-title text-muted text-left text-capitalize text-justify">
+                  <h5 className="card-title text-muted text-left text-capitalize text-justify">
                     {subTitle}
-                  </h3>
+                  </h5>
                 </a>
               </div>
             </div>
             <div className="row">
               <div className="col-sm-7">
-                <h4 className="card-text text-left text-wrap text-reset text-capitalize text-justify">
+                <p className="card-text text-left text-wrap text-reset text-capitalize text-justify">
                   {context}
-                </h4>
+                </p>
               </div>
               <div className="col-sm-5 text-capitalize text-justify">
-                <h4>
-                  {start} - {end}
-                </h4>
+                <h6>
+                  <i className="fa fa-calendar-check" /> {start} - {end}
+                </h6>
               </div>
             </div>
           </div>
