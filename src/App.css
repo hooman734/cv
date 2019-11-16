@@ -23,6 +23,7 @@
 
 .text {
   overflow: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 .App-header {
