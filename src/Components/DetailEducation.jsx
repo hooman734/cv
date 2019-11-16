@@ -17,7 +17,7 @@ const DetailEducation = function(props) {
             <div className="row">
               <div className="col-sm">
                 <div className="row">
-                  <div className="col-sm-7">
+                  <div className="col-sm-10">
                     <a
                       className="text-decoration-none text-reset text-capitalize text-justify"
                       href={link || "#"}
@@ -27,7 +27,7 @@ const DetailEducation = function(props) {
                       </p>
                     </a>
                   </div>
-                  <div className="col-sm-5 text-capitalize">
+                  <div className="col-sm-2 text-capitalize">
                     <h6>
                       <i className="fa fa-calendar-check" /> {start} - {end}
                     </h6>
