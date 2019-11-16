@@ -1,5 +1,5 @@
 import React from "react";
-import DetailAdv from "./Detail-advancement";
+import DetailAdvancement from "./DetailAdvancement";
 
 const Proficiency = function() {
   return (
@@ -13,11 +13,11 @@ const Proficiency = function() {
             knowledge
           </h3>
         </div>
-        <DetailAdv
+        <DetailAdvancement
           title="English Proficiency"
           context="B2 certificate"
           advance="80"
-        ></DetailAdv>
+        />
       </div>
     </div>
   );

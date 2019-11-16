@@ -1,5 +1,5 @@
 import React from "react";
-import DetailAdv from "./Detail-advancement";
+import DetailAdvancement from "./DetailAdvancement";
 
 const Skill = function() {
   return (
@@ -12,98 +12,98 @@ const Skill = function() {
         </div>
         <div className="row">
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="React js"
               advance="70"
               link="https://reactjs.org/"
-            ></DetailAdv>
+            />
           </div>
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="Angular js"
               advance="30"
               link="https://angularjs.org/"
-            ></DetailAdv>
+            />
           </div>
         </div>
         <div className="row">
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="Node js"
               advance="50"
               link="https://nodejs.org/en/"
-            ></DetailAdv>
+            />
           </div>
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="Express js"
               advance="50"
               link="https://expressjs.com/"
-            ></DetailAdv>
+            />
           </div>
         </div>
         <div className="row">
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="JAVA"
               advance="50"
               link="https://www.java.com/en/"
-            ></DetailAdv>
+            />
           </div>
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="mysql"
               advance="65"
               link="https://www.mysql.com/"
-            ></DetailAdv>
+            />
           </div>
         </div>
         <div className="row">
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="C++"
               advance="75"
               link="http://www.cplusplus.com/"
-            ></DetailAdv>
+            />
           </div>
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="Python"
               advance="70"
               link="https://www.python.org/"
-            ></DetailAdv>
+            />
           </div>
         </div>
         <div className="row">
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="Java Script"
               advance="70"
               link="https://www.javascript.com/"
-            ></DetailAdv>
+            />
           </div>
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="C#"
               advance="25"
               link="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/"
-            ></DetailAdv>
+            />
           </div>
         </div>
         <div className="row">
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="Koa js"
               advance="30"
               link="https://koajs.com/"
-            ></DetailAdv>
+            />
           </div>
           <div className="col-sm-6">
-            <DetailAdv
+            <DetailAdvancement
               title="Rust"
               advance="10"
               link="https://www.rust-lang.org/"
-            ></DetailAdv>
+            />
           </div>
         </div>
       </div>

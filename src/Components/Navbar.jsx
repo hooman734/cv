@@ -5,7 +5,7 @@ const Navbar = function() {
     <nav class="navbar navbar-light bg">
       <h1>
         <a
-          class="badge badge-secondary navbar-brand text-white"
+          className="badge badge-secondary navbar-brand text-white"
           href="http://hooman734.github.io"
         >
           <i class="fa fa-home" />
