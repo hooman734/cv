@@ -1,6 +1,6 @@
 import React from "react";
 
-const Detail_progress = function(props) {
+const DetailProgress = function(props) {
   const { title, subTitle, context, link, start, end } = props;
   return (
     <div className="row shadow-lg p-1 mb-1 bg-white rounded">
@@ -15,7 +15,6 @@ const Detail_progress = function(props) {
                 <a
                   className="text-decoration-none text-reset text-capitalize text-justify"
                   href={link || "#"}
-                  target="_blank"
                 >
                   <h5 className="card-title text-muted text-left text-capitalize text-justify">
                     {subTitle}
@@ -42,4 +41,4 @@ const Detail_progress = function(props) {
   );
 };
 
-export default Detail_progress;
+export default DetailProgress;

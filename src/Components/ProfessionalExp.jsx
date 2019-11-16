@@ -1,5 +1,5 @@
 import React from "react";
-import DetailProgress from "./Detail-progress";
+import DetailProgress from "./DetailProgress";
 
 const Professional_exp = function() {
   return (
@@ -17,7 +17,7 @@ const Professional_exp = function() {
           link="http://www.moujabfan.ir/"
           start="2014"
           end="2016"
-        ></DetailProgress>
+        />
         <DetailProgress
           title="mechanical building installment specialist"
           subTitle="iran society of engineers"
@@ -25,7 +25,7 @@ const Professional_exp = function() {
           link="http://www.golestannezam.ir/"
           start="2007"
           end="2016"
-        ></DetailProgress>
+        />
         <DetailProgress
           title="mechanical supervisor"
           subTitle="rahsaz firm in iran"
@@ -33,7 +33,7 @@ const Professional_exp = function() {
           link=""
           start="2004"
           end="2016"
-        ></DetailProgress>
+        />
       </div>
     </div>
   );

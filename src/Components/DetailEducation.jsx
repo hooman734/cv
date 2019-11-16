@@ -1,6 +1,6 @@
 import React from "react";
 
-const Detail_education = function(props) {
+const DetailEducation = function(props) {
   const { title, context, link, start, end } = props;
   return (
     <div className="row shadow-lg p-1 mb-1 bg-white rounded">
@@ -21,7 +21,6 @@ const Detail_education = function(props) {
                     <a
                       className="text-decoration-none text-reset text-capitalize text-justify"
                       href={link || "#"}
-                      target="_blank"
                     >
                       <p className="card-text text-left text-wrap text-reset text-capitalize text-justify">
                         {context}
@@ -43,4 +42,4 @@ const Detail_education = function(props) {
   );
 };
 
-export default Detail_education;
+export default DetailEducation;
