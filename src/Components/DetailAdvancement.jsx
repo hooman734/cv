@@ -1,6 +1,6 @@
 import React from "react";
 
-const Detail_advancement = function(props) {
+const DetailAdvancement = function(props) {
   const { title, advance, link, context } = props;
   const progress = parseInt(advance);
   let bartype = "";
@@ -19,7 +19,6 @@ const Detail_advancement = function(props) {
                 <a
                   className="text-decoration-none text-reset text-capitalize text-justify"
                   href={link || "#"}
-                  target="_blank"
                 >
                   <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                     {title}
@@ -52,4 +51,4 @@ const Detail_advancement = function(props) {
   );
 };
 
-export default Detail_advancement;
+export default DetailAdvancement;

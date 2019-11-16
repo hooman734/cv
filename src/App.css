@@ -40,3 +40,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.card {
+  border: 0;
+}
+
+.row {
+  margin-right: 0%;
+  margin-left: 0%;
+}

@@ -13,8 +13,8 @@ const Personal_info = function() {
             personal detailes
           </h3>
         </div>
-        <Detail title="Birth Date" context="22/05/1981"></Detail>
-        <Detail title="Nationality" context="Iranian"></Detail>
+        <Detail title="Birth Date" context="22/05/1981" />
+        <Detail title="Nationality" context="Iranian" />
       </div>
     </div>
   );
