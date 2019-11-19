@@ -19,9 +19,16 @@ const AccomplishedProject = function() {
           gitLink="https://github.com/hooman734/ChessProjectFinall"
         />
         <DetailAccomplished
+          title="first page"
+          context="a node js application like a registration page"
+          gitLink="https://github.com/hooman734/firstPage"
+          wwwLink="https://amir-vihan.herokuapp.com/"
+        />
+        <DetailAccomplished
           title="angular practice"
           context=" a practice of using angular framework"
           gitLink="https://github.com/hooman734/angularPractice1"
+          wwwLink="https://angular-prac-1.herokuapp.com/"
         />
         <DetailAccomplished
           title="vidley"
