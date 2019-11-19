@@ -16,7 +16,7 @@ const AccomplishedProject = function() {
         <DetailAccomplished
           title="chess project"
           context=" implementing chess game field and pieces by Vanilla javascript"
-          gitLink="https://github.com/hooman734/ChessProjectFinall"
+          gitLink="https://github.com/hooman734/ChessProject"
         />
         <DetailAccomplished
           title="first page"
