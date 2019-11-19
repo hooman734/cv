@@ -12,13 +12,16 @@ const DetailProgress = function(props) {
                 <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                   {title}
                 </h5>
+                <hr />
                 <a
                   className="text-decoration-none text-reset text-capitalize text-justify"
                   href={link || "#"}
                 >
-                  <h5 className="card-title text-muted text-left text-capitalize text-justify">
-                    {subTitle}
-                  </h5>
+                  <em>
+                    <h5 className="card-title text-muted text-left text-capitalize text-justify">
+                      {subTitle}
+                    </h5>
+                  </em>
                 </a>
               </div>
             </div>
@@ -30,7 +33,9 @@ const DetailProgress = function(props) {
               </div>
               <div className="col-sm-3 text-capitalize text-justify">
                 <h6>
-                  <i className="fa fa-calendar-check" /> {start} - {end}
+                  <mark>
+                    <i className="fa fa-calendar-check" /> {start} - {end}
+                  </mark>
                 </h6>
               </div>
             </div>

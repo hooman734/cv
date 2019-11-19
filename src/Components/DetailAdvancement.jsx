@@ -23,6 +23,7 @@ const DetailAdvancement = function(props) {
                   <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                     {title}
                   </h5>
+                  <hr />
                 </a>
                 <p className="card-text text-left text-wrap text-reset text-capitalize text-justify">
                   {context || ""}

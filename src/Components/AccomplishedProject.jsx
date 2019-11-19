@@ -1,5 +1,5 @@
 import React from "react";
-import DetailLink from "./DetailLink";
+import DetailAccomplished from "./DetailAccomplished";
 
 const AccomplishedProject = function() {
   return (
@@ -10,26 +10,29 @@ const AccomplishedProject = function() {
             className="text text-left text-uppercase"
             style={{ padding: "5px" }}
           >
-            Accomplished Projects
+            Finished Projects
           </h3>
         </div>
-        <DetailLink
+        <DetailAccomplished
           title="chess project"
           context=" implementing chess game field and pieces by Vanilla javascript"
-          link="https://github.com/hooman734/ChessProjectFinall"
-          icon="fa fa-git-square"
+          gitLink="https://github.com/hooman734/ChessProjectFinall"
         />
-        <DetailLink
+        <DetailAccomplished
           title="angular practice"
           context=" a practice of using angular framework"
-          link="https://github.com/hooman734/angularPractice1"
-          icon="fa fa-git-square"
+          gitLink="https://github.com/hooman734/angularPractice1"
         />
-        <DetailLink
+        <DetailAccomplished
           title="vidley"
           context="a recat js application as a practice"
-          link="https://github.com/hooman734/vidley"
-          icon="fa fa-git-square"
+          gitLink="https://github.com/hooman734/vidley"
+        />
+        <DetailAccomplished
+          title="Video Player"
+          context="a recat js application serves as a customized YouTube player"
+          gitLink="https://github.com/hooman734/video_player"
+          wwwLink="https://hooman734.github.io/video_player"
         />
       </div>
     </div>

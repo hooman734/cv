@@ -11,6 +11,7 @@ const DetailLink = function(props) {
               <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                 {title}
               </h5>
+              <hr />
             </a>
             <a className="text-decoration-none text-reset" href={link || "#"}>
               <p className="card-text text-left text-wrap text-capitalize text-justify">

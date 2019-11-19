@@ -12,8 +12,10 @@ const DetailEducation = function(props) {
                 <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                   {title}
                 </h5>
+                <hr />
               </div>
             </div>
+
             <div className="row">
               <div className="col-sm">
                 <div className="row">
@@ -29,7 +31,9 @@ const DetailEducation = function(props) {
                   </div>
                   <div className="col-sm-3 text-capitalize">
                     <h6>
-                      <i className="fa fa-calendar-check" /> {start} - {end}
+                      <mark>
+                        <i className="fa fa-calendar-check" /> {start} - {end}
+                      </mark>
                     </h6>
                   </div>
                 </div>

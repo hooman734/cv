@@ -10,6 +10,7 @@ const Detail = function(props) {
             <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
               {title}
             </h5>
+            <hr />
             <p className="card-text text-left text-wrap text-capitalize text-justify">
               {context}
             </p>
