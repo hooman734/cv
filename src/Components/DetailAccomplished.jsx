@@ -7,7 +7,10 @@ const DetailAccompplished = function(props) {
       <div className="col-sm">
         <div className="card">
           <div className="card-body">
-            <a className="text-decoration-none" href={wwwLink || "#"}>
+            <a
+              className="text-decoration-none"
+              href={wwwLink || gitLink || "#"}
+            >
               <h5 className="card-title font-weight-bold text-muted text-left text-uppercase text-justify">
                 {title}
               </h5>
