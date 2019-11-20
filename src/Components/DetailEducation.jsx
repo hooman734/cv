@@ -24,7 +24,7 @@ const DetailEducation = function(props) {
                       className="text-decoration-none text-reset text-capitalize text-justify"
                       href={link || "#"}
                     >
-                      <p className="card-text text-left text-wrap text-reset text-capitalize text-justify">
+                      <p className="lead card-text text-left text-wrap text-reset text-capitalize text-justify">
                         {context}
                       </p>
                     </a>

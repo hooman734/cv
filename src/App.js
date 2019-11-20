@@ -13,7 +13,7 @@ import "./App.css";
 function App() {
   return (
     <div className="container-fluid width-align-justify App">
-      <div className="row-sm-12">
+      <div className="row">
         <Navbar />
       </div>
       <div className="row Component">
@@ -30,8 +30,11 @@ function App() {
           <AccomplishedProject />
         </div>
       </div>
+      <div className="row-sm-10" >
+        
+      
+      </div>
     </div>
-  );
-}
+  );}
 
 export default App;

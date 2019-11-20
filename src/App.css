@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("./background/wood.jpg");
+  background-image: url("./background/cloud.jpg");
   background-attachment: fixed;
 }
 
@@ -21,7 +21,7 @@
   margin-right: -0.1rem;
 }
 
-.navbar {
+.navbar, .DropDownMenu {
   width: fit-content;
 }
 
