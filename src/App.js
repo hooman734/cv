@@ -13,9 +13,7 @@ import "./App.css";
 function App() {
   return (
     <div className="container-fluid width-align-justify App">
-      <div className="row">
-        <NavbarComp />
-      </div>
+      <NavbarComp />
       <div className="row Component">
         <div className="col-sm-5">
           <PersonalInfo id="PersonalInfo" />
