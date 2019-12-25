@@ -1,13 +1,14 @@
 import React from "react";
 import DetailAdvancement from "./DetailAdvancement";
 
-const Proficiency = function() {
+const Knowledge = function() {
   return (
     <div className="row">
       <div className="col-sm" style={{ paddingTop: "25px" }}>
         <div className="shadow-lg p-2 mb-2 badge-secondary rounded">
           <h3
             className="text text-left text-uppercase"
+            id="Knowledge"
             style={{ padding: "5px" }}
           >
             knowledge
@@ -23,4 +24,4 @@ const Proficiency = function() {
   );
 };
 
-export default Proficiency;
+export default Knowledge;

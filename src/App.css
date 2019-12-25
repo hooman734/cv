@@ -19,10 +19,15 @@
   /* opacity: 0.9; */
   margin-left: -0.1rem;
   margin-right: -0.1rem;
+  color: olive;
 }
 
-.navbar, .DropDownMenu {
-  width: fit-content;
+.navbar {
+  margin: 0 0 0 0;
+  /* font-family: Arial; */
+  font-size: 100%;
+  width: 100%;
+  /* overflow: hidden; */
 }
 
 .text {

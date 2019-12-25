@@ -9,6 +9,7 @@ const Education = function() {
         <div className="shadow-lg p-2 mb-2 badge-secondary rounded">
           <h3
             className="text text-left text-uppercase"
+            id="Education"
             style={{ padding: "5px" }}
           >
             Education

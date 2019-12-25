@@ -1,13 +1,14 @@
 import React from "react";
 import DetailProgress from "./DetailProgress";
 
-const Professional_exp = function() {
+const ProfessionalExp = function() {
   return (
     <div className="row">
       <div className="col-sm" style={{ paddingTop: "25px" }}>
         <div className="shadow-lg p-2 mb-2 badge-secondary rounded">
           <h3
             className="text text-left text-uppercase"
+            id="ProfessionalExp"
             style={{ padding: "5px" }}
           >
             professional experience
@@ -42,4 +43,4 @@ const Professional_exp = function() {
   );
 };
 
-export default Professional_exp;
+export default ProfessionalExp;

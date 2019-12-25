@@ -5,7 +5,7 @@ import Education from "./Components/Education";
 import Skill from "./Components/Skill";
 import Knowledge from "./Components/Knowledge";
 import Contact from "./Components/Contact";
-import Navbar from "./Components/Navbar";
+import NavbarComp from "./Components/NavbarComp";
 import AccomplishedProject from "./Components/AccomplishedProject";
 
 import "./App.css";
@@ -14,27 +14,25 @@ function App() {
   return (
     <div className="container-fluid width-align-justify App">
       <div className="row">
-        <Navbar />
+        <NavbarComp />
       </div>
       <div className="row Component">
         <div className="col-sm-5">
-          <PersonalInfo />
-          <Contact />
-          <Knowledge />
-          <Skill />
+          <PersonalInfo id="PersonalInfo" />
+          <Contact id="Contact" />
+          <Knowledge id="Knowledge" />
+          <Skill id="Skill" />
         </div>
 
         <div className="col-sm-7">
-          <Education />
-          <ProfessionalExp />
-          <AccomplishedProject />
+          <Education id="Education" />
+          <ProfessionalExp id="ProfessionalExp" />
+          <AccomplishedProject id="AccomplishedProject" />
         </div>
       </div>
-      <div className="row-sm-10" >
-        
-      
-      </div>
+      <div className="row-sm-10"></div>
     </div>
-  );}
+  );
+}
 
 export default App;

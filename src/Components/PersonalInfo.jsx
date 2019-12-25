@@ -1,13 +1,14 @@
 import React from "react";
 import Detail from "./Detail";
 
-const Personal_info = function() {
+const PersonalInfo = function() {
   return (
     <div className="row">
       <div className="col-sm" style={{ paddingTop: "25px" }}>
         <div className="shadow-lg p-2 mb-2 badge-secondary rounded">
           <h3
             className="text text-left text-uppercase"
+            id="PersonalInfo"
             style={{ padding: "5px" }}
           >
             personal detailes
@@ -20,4 +21,4 @@ const Personal_info = function() {
   );
 };
 
-export default Personal_info;
+export default PersonalInfo;
