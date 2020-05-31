@@ -22,8 +22,8 @@ const Contact = function() {
         />
         <DetailLink
           title="Mobile Phone"
-          context=" +37477281734"
-          link="tel: +37477281734"
+          context=" +37477281774"
+          link="tel: +37477281774"
           icon="fa fa-phone-square"
         />
         <DetailLink
