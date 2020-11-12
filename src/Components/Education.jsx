@@ -20,7 +20,7 @@ const Education = function() {
           context="American University of Armenia"
           link="https://aua.am"
           start="2017"
-          end="Expected 2020"
+          end="2020"
         />
         <DetailEducation
           title="Bachelor of Science in civil engineering"
