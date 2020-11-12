@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5703f5591e31cef60cab111cdf81d479",
+    "revision": "04eb90608e47dae1589d30f13c344a0c",
     "url": "/cv/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv/static/css/2.3752c3d6.chunk.css"
   },
   {
-    "revision": "49a1cb5c5bc1fbdcdb9c",
-    "url": "/cv/static/css/main.a30ac593.chunk.css"
+    "revision": "7ec73b1116c298dc5585",
+    "url": "/cv/static/css/main.de84d62d.chunk.css"
   },
   {
     "revision": "ef240bef476025e69a06",
@@ -20,16 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv/static/js/2.cf8543d4.chunk.js.LICENSE"
   },
   {
-    "revision": "49a1cb5c5bc1fbdcdb9c",
+    "revision": "7ec73b1116c298dc5585",
     "url": "/cv/static/js/main.d0bb5122.chunk.js"
   },
   {
     "revision": "4157253bc5d6dffe1da9",
     "url": "/cv/static/js/runtime-main.3c78338b.js"
-  },
-  {
-    "revision": "b0193946d15a50600f4ae962730ac608",
-    "url": "/cv/static/media/cloud.b0193946.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -50,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/cv/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "d24a9454c7faca0aec9ae087e4dd6946",
+    "url": "/cv/static/media/metal-texture-pattern.d24a9454.jpg"
   }
 ]);
