@@ -110,6 +110,38 @@ const Skill = function() {
             />
           </div>
         </div>
+        <div className="row">
+          <div className="col-sm-6">
+            <DetailAdvancement
+              title="Lua"
+              advance="40"
+              link="http://www.lua.org/"
+            />
+          </div>
+          <div className="col-sm-6">
+            <DetailAdvancement
+              title="Go"
+              advance="60"
+              link="http://golang.org/"
+            />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-6">
+            <DetailAdvancement
+              title="Vue"
+              advance="60"
+              link="https://vuejs.org/"
+            />
+          </div>
+          <div className="col-sm-6">
+            <DetailAdvancement
+              title="Svelte"
+              advance="40"
+              link="https://svelte.dev/"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

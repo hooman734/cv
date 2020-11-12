@@ -21,6 +21,12 @@ const Contact = function() {
           icon="fa fa-envelope"
         />
         <DetailLink
+          title="Email"
+          context="hooman_hesamyan20@alumni.aua.am"
+          link="mailto:hooman_hesamyan20@alumni.aua.am"
+          icon="fa fa-envelope"
+        />
+        <DetailLink
           title="Mobile Phone"
           context=" +37477281774"
           link="tel: +37477281774"
@@ -28,7 +34,7 @@ const Contact = function() {
         />
         <DetailLink
           title="Address"
-          context="Armenia, Kievyan Ave."
+          context="Margaryan 45, Yerevan, Armenia"
           link="https://www.google.com/maps/place/Kievyan+St,+Yerevan,+Armenia/@40.1949348,44.4880106,17z/data=!4m2!3m1!1s0x406abd6d4556de9d:0xdaad543c0accedfd"
           icon="fa fa-map-marker"
         />

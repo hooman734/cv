@@ -27,9 +27,11 @@ const DetailProgress = function(props) {
             </div>
             <div className="row">
               <div className="col-sm-9">
-                <p className="card-text text-left text-wrap text-reset text-capitalize text-justify">
-                  {context}
-                </p>
+                {context.map(item => (
+                  <li className="card-title text-muted text-left text-capitalize text-justify">
+                   {item}
+                  </li>
+                ))}
               </div>
               <div className="col-sm-3 text-capitalize text-justify">
                 <h6>
