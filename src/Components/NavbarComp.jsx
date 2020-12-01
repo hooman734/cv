@@ -17,14 +17,14 @@ const NavbarComp = function() {
               Professional Expperince
             </NavDropdown.Item>
             <NavDropdown.Item href="#AccomplishedProject">
-              Finished Pprojects
+              Finished Projects
             </NavDropdown.Item>
             <NavDropdown.Item href="#Skill">Developing Skills</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="mailto: hooman@hesamian.com">
+            <NavDropdown.Item href="mailto: hesamyan@gmail.com">
               Email Me!
             </NavDropdown.Item>
-            <NavDropdown.Item href="tel: +37477281734">
+            <NavDropdown.Item href="tel: +37477281774">
               Call Me!
             </NavDropdown.Item>
           </NavDropdown>
