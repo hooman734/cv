@@ -16,8 +16,8 @@ const Knowledge = function() {
         </div>
         <DetailAdvancement
           title="English Proficiency"
-          context="B2 certificate"
-          advance="80"
+          context="IELTS General: 6.5"
+          advance="73"
         />
       </div>
     </div>
