@@ -3,4 +3,4 @@
 Written using `create-react-app`
 
 
-[Resume URL](https://github.com/hooman734/cv)
+[Resume URL](https://hooman734.github.io/cv/)
